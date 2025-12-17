@@ -1,4 +1,4 @@
-let apiKey="AIzaSyAnGBJmhox6qKBEN3BqQVTI7avOZgUtGA0"
+let apiKey="AIzaSyBiwrd8urc4Xb4-K5DRYnMjWUNOt_gpKe0"
 
 import {
     GoogleGenerativeAI,
@@ -10,7 +10,7 @@ import {
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash-8b",
+    model: "gemini-2.5-flash",
   });
   
   const generationConfig = {
